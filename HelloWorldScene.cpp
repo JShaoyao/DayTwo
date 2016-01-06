@@ -38,9 +38,9 @@ bool HelloWorld::init()
     this->addChild(label, 1);
 
     //背景图片
-    auto sprite = Sprite::create("HelloWorld.png");
-    sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
-    this->addChild(sprite, 0);
+    //auto sprite = Sprite::create("HelloWorld.png");
+    //sprite->setPosition(Vec2(visibleSize.width/2 + origin.x, visibleSize.height/2 + origin.y));
+    //this->addChild(sprite, 0);
     
     
     
